@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard | Resume Parser</title>
+    <title>Admin Dashboard | Resume Analyzer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -323,31 +323,8 @@
         <div class="dashboard-grid">
             <div class="stat-card">
                 <h3><i class="fas fa-file-alt"></i> Total Resumes</h3>
-                <div class="value" id="totalResumes">1,248</div>
-                <div class="trend up">
-                    <i class="fas fa-arrow-up"></i> 12% from last week
-                </div>
-            </div>
-            <div class="stat-card">
-                <h3><i class="fas fa-check-circle"></i> Accepted</h3>
-                <div class="value" id="acceptedResumes">324</div>
-                <div class="trend up">
-                    <i class="fas fa-arrow-up"></i> 8% from last week
-                </div>
-            </div>
-            <div class="stat-card">
-                <h3><i class="fas fa-clock"></i> Pending</h3>
-                <div class="value" id="pendingResumes">156</div>
-                <div class="trend down">
-                    <i class="fas fa-arrow-down"></i> 5% from last week
-                </div>
-            </div>
-            <div class="stat-card">
-                <h3><i class="fas fa-star"></i> Average Score</h3>
-                <div class="value" id="averageScore">82.5</div>
-                <div class="trend up">
-                    <i class="fas fa-arrow-up"></i> 3.2 points improvement
-                </div>
+                <div class="value" id="totalResumes">8</div>
+                
             </div>
         </div>
         
@@ -363,7 +340,7 @@
                     </div>
                     <div class="activity-content">
                         <div class="activity-title">New resume uploaded by system</div>
-                        <div class="activity-time">2 minutes ago</div>
+                        <div class="activity-time">1 minute ago</div>
                     </div>
                 </div>
                 <div class="activity-item">
@@ -371,40 +348,24 @@
                         <i class="fas fa-check-circle"></i>
                     </div>
                     <div class="activity-content">
-                        <div class="activity-title">Resume #1245 accepted automatically</div>
-                        <div class="activity-time">15 minutes ago</div>
+                        <div class="activity-title">Resume 8 accepted automatically</div>
+                        <div class="activity-time">24 hours ago</div>
                     </div>
                 </div>
                 <div class="activity-item">
                     <div class="activity-icon">
                         <i class="fas fa-user-edit"></i>
                     </div>
-                    <div class="activity-content">
-                        <div class="activity-title">Manual review completed for resume #1243</div>
-                        <div class="activity-time">1 hour ago</div>
-                    </div>
                 </div>
                 <div class="activity-item">
                     <div class="activity-icon">
                         <i class="fas fa-cog"></i>
                     </div>
-                    <div class="activity-content">
-                        <div class="activity-title">System settings updated</div>
-                        <div class="activity-time">3 hours ago</div>
-                    </div>
                 </div>
             </div>
         </div>
         
-        <div class="card">
-            <div class="card-header">
-                <h2><i class="fas fa-chart-line"></i> Performance Metrics</h2>
-                <a href="/analytics" class="view-all">View details <i class="fas fa-chevron-right"></i></a>
-            </div>
-            <div style="height: 300px; background-color: #f8f9fa; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--gray);">
-                [Chart Visualization Placeholder]
-            </div>
-        </div>
+       
     </div>
 
     <script>
